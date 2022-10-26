@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    background: linear-gradient(to right, rgb(118, 53, 182), rgb(190, 121, 211));
+   
+}
+h1{
+    color: deepskyblue;
+}
+ul li{
+    color: rebeccapurple;
+}
+
+#navbar{
+    background-color: rgb(21,4,35);
+   
+    overflow: auto;
+}
+#navbar ul{
+ list-style: none;
+ float: right;
+}
+#navbar li{
+    float: left;
+}
+#navbar ul li a{
+    padding: 20px;
+    text-align: center;
+    color: rgb(211, 164, 64);
+    display: block;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color: rgba(73, 53, 53, 0.842);
+    border-radius: 15px;
+}
+
+#navbar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: rgba(41, 32, 32, 0.842) ;
+
+}
+
+#navbar li:hover > ul{
+    display:block;
+}
+#navbar .Logo{
+    float: left;
+    padding: 10px;
+}
+
+.Contenedor{
+    margin: 0;
+    max-width: 1024px;
+    padding: 0,20;
+    overflow: auto;
+    text-align: center;
+ 
+}
+.Logo{
+    width: 110px;
+    margin-left: 30px;
+}
+.Texto-menu{
+    font-size: 1em;
+    text-transform: uppercase;
+}
+#MostrarSlider{
+  
+    background-image: url("../IMGS/Portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 55px;
+}
+#MostrarSlider H1{
+   
+    padding: 30px;
+    text-align: center;
+    color:rgb(216, 197, 197);
+   
+}
+
+.pregu{
+    font-size:24px;
+    color: aliceblue;
+    text-align: center;
+}
+#MostrarSlider .Slider-DatosPersonales{
+    background-color: rgba(34, 30, 37, 0.836);
+    border-radius: 1em;
+}
+
+ .cuerpo{
+    background-color: black;
+    position: relative;
+    width: 100%;
+    float:left;
+    height: 100%;
+   
+}
+
+h5{
+
+    color: rgb(254, 251, 255);
+    text-shadow: rgb(26, 22, 16) 2px 2px 2px;
+}
+
+.parra{
+
+    font-size: large;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    text-shadow: black 3px 3px 3px;
+}
+
+
+.intro{
+    left: 55px;
+    width: 700px;
+    position: relative;
+    text-align: justify;
+    color: aliceblue;
+
+}
+
+.Ima{
+
+position: absolute;
+left: 150px;
+top: 200px;
+width: 450px;
+}
+
+
+
+-----------------------
+.part2{
+    background-color:rgb(176, 92, 202);
+    float: left;
+    width: 510px;
+    height: 500px;
+    padding: 20px 0px 35px 0px;
+  
+
+    
+}
+
+.defini{
+    text-align: justify;
+    color: rgb(235, 226, 209);
+ 
+}
+
+.part3{
+position: relative;
+
+top: 10px;
+text-align: center;
+width: 100%;
+}
+
+.carac{
+    color: rgb(207, 231, 205);
+}
+
+.card-body{
+    background-color:rgb(187, 130, 219);
+}
+
+
+.part4{
+    text-align: center;
+    width: 100%;
+}
+
+.tipos{
+    text-align: left;
+    color: antiquewhite;
+}
+
+.pun{
+    color: rgb(236, 231, 231);
+}

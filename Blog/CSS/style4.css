@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    background-color:rgba(67,4,95,255);
+   
+}
+h1{
+    color: deepskyblue;
+}
+ul li{
+    color: rebeccapurple;
+}
+
+#navbar{
+    background-color: rgb(21,4,35);
+   
+    overflow: auto;
+}
+#navbar ul{
+ list-style: none;
+ float: right;
+}
+#navbar li{
+    float: left;
+}
+#navbar ul li a{
+    padding: 20px;
+    text-align: center;
+    color: rgb(211, 164, 64);
+    display: block;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color: rgba(73, 53, 53, 0.842);
+    border-radius: 15px;
+}
+
+#navbar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: rgba(41, 32, 32, 0.842) ;
+
+}
+
+#navbar li:hover > ul{
+    display:block;
+}
+#navbar .Logo{
+    float: left;
+    padding: 10px;
+}
+
+.Contenedor{
+    margin: 0;
+    max-width: 1024px;
+    padding: 0,20;
+    overflow: auto;
+    text-align: center;
+ 
+}
+.Logo{
+    width: 110px;
+    margin-left: 30px;
+}
+.Texto-menu{
+    font-size: 1em;
+    text-transform: uppercase;
+}
+#MostrarSlider{
+    background-image: url("../IMGS/Portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    padding: 25px;
+}
+#MostrarSlider H1{
+    padding: 30px;
+    text-align: center;
+    color:rgb(216, 197, 197);
+   
+}
+
+
+#MostrarSlider .Slider-DatosPersonales{
+    background-color: rgba(34, 30, 37, 0.836);
+    border-radius: 1em;
+}
+
+.part1{
+    position: relative;
+    left: 150px;
+    width: 75%;
+    padding: 50px 0px 600px 0px;
+}
+
+.intro{
+ 
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+.ima1{
+  position: relative;
+  left: 250px;
+  height: 300px;
+  width: 500px;
+}
+
+
+.part2{
+    position: relative;
+    padding: 30px 0px 200px 0px;
+left: 350px;
+bottom: 550px;
+height: 100px;
+width: 700px;
+}
+
+h5{
+    text-align: center;
+}
+
+
+.defini{
+    
+color: wheat;
+}
+
+.part3{
+
+position: relative;
+
+}
+
+.clasi{
+    text-align: center;
+    color: white;
+}
+
+.section3{
+    position: relative;
+  padding-bottom: 200px;
+}

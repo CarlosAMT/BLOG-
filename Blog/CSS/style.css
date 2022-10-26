@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    background: linear-gradient(to right,rebeccapurple, #6c2a7c );
+   
+}
+h1{
+    color: deepskyblue;
+}
+ul li{
+    color: rebeccapurple;
+}
+
+#navbar{
+    background-color: rgb(21,4,35);
+   
+    overflow: auto;
+}
+#navbar ul{
+ list-style: none;
+ float: right;
+}
+#navbar li{
+    float: left;
+}
+#navbar ul li a{
+    padding: 20px;
+    text-align: center;
+    color: rgb(211, 164, 64);
+    display: block;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color: rgba(73, 53, 53, 0.842);
+    border-radius: 15px;
+}
+
+#navbar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: rgba(41, 32, 32, 0.842) ;
+
+}
+
+#navbar li:hover > ul{
+    display:block;
+}
+#navbar .Logo{
+    float: left;
+    padding: 10px;
+}
+
+.Contenedor{
+    margin: 0;
+    max-width: 1024px;
+    padding: 0,20;
+    overflow: auto;
+    text-align: center;
+ 
+}
+.Logo{
+    width: 110px;
+    margin-left: 30px;
+}
+.Texto-menu{
+    font-size: 1em;
+    text-transform: uppercase;
+}
+#MostrarSlider{
+    background-image: url("../IMGS/Portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    padding: 25px;
+}
+#MostrarSlider H1{
+    padding: 30px;
+    text-align: center;
+    color:rgb(216, 197, 197);
+   
+}
+
+.pregu{
+    font-size:24px;
+    color: aliceblue;
+    text-align: center;
+}
+#MostrarSlider .Slider-DatosPersonales{
+    background-color: rgba(34, 30, 37, 0.836);
+    border-radius: 1em;
+}
+
+ .cuerpo{
+
+    position: relative;
+    top: 10px;
+    float:left;
+    width: 800px;
+    height: 100%;
+   
+   
+}
+.part1{
+    padding: 35px 0px 100px 0px;
+}
+
+.intro{
+    left: 55px;
+    width: 700px;
+    position: relative;
+ 
+    color: rgb(0, 0, 0);
+
+}
+
+.Ima{
+background-image:url("../IMGS/Pro1.webp");
+position: absolute;
+height: 50px;
+width: 200px;
+
+}
+
+h5{
+    
+    text-align: center;
+}
+
+
+.part2{
+    position: relative;
+    top:100px;
+    left: 140px;
+    float: left;
+    width: 80%;
+    height: 200px;
+    margin-bottom: 240px;
+    
+}
+
+.defini{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+ 
+}
+
+
+
+.Ima2{
+    background-image:url("../IMGS/defi.png");
+    left: 180px;
+    position: relative;
+ 
+    box-shadow: black 2px 3px 3px;
+    height: 400px;
+    width: 700px;
+    }
+
+.section3{
+    padding-top: 850px ;
+}
+.part3{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.carac{
+    color: rgb(255, 249, 249);
+}
+
+.card-body{
+    text-align: justify;
+    background-color:white;
+}
+
+.card-title{
+    border: black ;
+}
+
+.card-img-top1{
+    height: 300px;
+    width: 450px;
+}
+
+.card-img-top2{
+    position: relative;
+    left: 50px;
+    height: 300px;
+    width: 500px;
+}
+
+.section4{
+
+    padding: 100px 0px 100px 0px;
+}
+
+.part4{
+    text-align: center;
+    width: 100%;
+}
+
+.vent{
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.pun{
+    color: rgb(0, 0, 0);
+}
